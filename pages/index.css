@@ -5,9 +5,3 @@
 @import url(../blocks/content.css);
 @import url(../blocks/intro.css);
 @import url(../blocks/footer.css);
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
