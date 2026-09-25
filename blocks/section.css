@@ -1,0 +1,41 @@
+.section{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.section__title{
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  margin-bottom: 40px;
+}
+
+.section__quote{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 10px;
+}
+
+.section__quote-author{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 32px;
+  margin-left: auto;
+}
+
+.section__paragraph{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+}
+
+@media  screen and (max-width:1024px) {
+
+}
+
+@media  screen and (max-width:544px) {
+
+}
