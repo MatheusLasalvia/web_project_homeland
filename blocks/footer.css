@@ -1,17 +1,15 @@
-.footer{
+.footer {
   margin-bottom: 24px;
 }
 
-.footer__copyright{
+.footer__copyright {
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
 }
 
-@media  screen and (max-width:1024px) {
-
-}
-
-@media  screen and (max-width:544px) {
-
+@media screen and (max-width: 544px) {
+  .footer__copyright {
+    line-height: 14px;
+  }
 }
