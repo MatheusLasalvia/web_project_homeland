@@ -1,0 +1,40 @@
+.criccieth {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, auto) 48px;
+  grid-template-areas:
+    "title ."
+    "title artist"
+    "image description-top"
+    "image description-bottom"
+    "button .";
+  gap: 48px 40px;
+}
+
+.criccieth__title {
+  max-width: 460px;
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 900;
+  grid-area: title;
+}
+
+.criccieth__artist {
+  grid-area: artist;
+}
+
+.criccieth__description_top {
+  grid-area: description-top;
+}
+
+.criccieth__description_bottom {
+  grid-area: description-bottom;
+}
+
+.criccieth__image {
+  grid-area: image;
+}
+
+.criccieth__button {
+  grid-area: button;
+}

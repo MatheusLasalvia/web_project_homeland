@@ -1,0 +1,13 @@
+.places {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 984px;
+  gap: 80px;
+}
+
+.span-accent {
+  color: #aaaaaa;
+}
