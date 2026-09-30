@@ -10,4 +10,22 @@
 
 .span-accent {
   color: #aaaaaa;
+  margin-bottom: 8px;
+  font-size: 12px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 12%;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    gap: 72px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .places {
+    gap: 50px;
+  }
 }
